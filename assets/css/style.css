@@ -1,0 +1,73 @@
+body {
+    /* throw in a ridiculous background image(maybe of the model home?) */
+    background-size: 100% 100%;  
+}
+
+header {
+    background-color:red;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    font-size: 36px;
+}
+#seconds-count{
+    background-color: yellowgreen;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+#new-question{
+    position: absolute;
+    top: 40px;
+    right: 30px;
+}
+
+.stats {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    height: 80px;
+    width: 200px;
+    font-size: 20px;
+    background-color: yellow; 
+}
+
+.spacer{
+    height: 80px;
+    width: 100%;
+}
+
+#question {
+    font-size: 26px;
+    height: 100px;
+    width: 400px;
+    padding: 20px;
+    background-color:lightskyblue;
+    border: 5px solid black;
+}
+
+.btn {
+    font-size: 22px;
+    background-color: yellow;
+    border: 5px solid green;
+}
+#invis{
+    opacity: 0.0;
+    height: 400px;
+}
+
+#message {
+    background-color: bisque;
+    height: 50px;
+    width: 400px;
+    padding: 5px;
+    margin: 5px;
+    border: 5px solid green;
+    font-size: 30px;
+}
+#picture {
+    height: 400px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>        
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href = "assets/css/style.css">
+    <title>Trivia Game</title>
+</head>
+<body>
+    <script src = "assets/javascript/app.js">
+    </script>
+    <header> Arrested Development Trivia! </header>
+    <div id = "seconds-count"></div>
+    <div id = "div1" class = "stats"></div>
+    <button class = "btn" id = "new-question">New Question</button>
+    
+    <div class = "container">
+        
+        <div class = "row spacer"></div>
+        <div class = "row">
+            <div class = "col align-self-center">
+                    <span class = "row justify-content-center" id = "question"> </span>
+                <div class = "btn-group-vertical align-self-center">
+                    <button type = "button" class = "btn btn-block btn-lg answer" id = "option-1" value = "1">Choice A</button>
+                    <button type = "button" class = "btn btn-block btn-lg answer" id = "option-2" value = "2">Choice B</button>
+                    <button type = "button" class = "btn btn-block btn-lg answer" id = "option-3" value = "3">Choice C</button>
+                    <button type = "button" class = "btn btn-block btn-lg answer" id = "option-4" value = "4">Choice C</button>
+                </div>
+                <div id = "invis"> </div>
+
+            </div>
+            <div class="col pic">
+                <h3 id = "message"></h3>
+                <button class = "btn" id = "Reveal"></button> 
+                <div id = "picture"></div>
+           </div>   
+        </div>
+ 
+  
+    
+    </div>
+    
+
+    
+   
+    
+</body>
+</html>
